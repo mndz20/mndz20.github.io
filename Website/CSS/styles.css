@@ -7,7 +7,7 @@
 } */
 body {
     background-image:url(https://concept-solutions.com/wp-content/uploads/2018/07/software-dev.png);
-    color: rgb(0, 0 , 0);
+    color: rgb(255,255,255);
     font-family: courier;
     padding: 10px;
     background-repeat:no-repeat;
@@ -48,12 +48,15 @@ a {
 }
 a:hover {
     color: grey;
+    text-decoration: underline;
+    text-decoration-color: grey;
 }
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background: rgb(67,0,92);
     display: flex;
+    border:rgb(0, 0 , 0) ridge;
     border-radius: 15px;
 }
 .sidebar {
@@ -62,7 +65,7 @@ main {
 }
 .sidebar-img {
     width: 200px;
-    border: 10px rgb(0,0,0) solid;
+    border: 10px rgb(255, 255, 255) ridge;
     padding: 5px
 }
 .content {
@@ -73,7 +76,10 @@ main {
     border: 4px rgb(0,0,0) ridge;
     border-radius: 10px 10px 10px;
     padding: 8px;
+    color: rgb(255, 255, 255);
 }
 h2, h3 {
     margin: 0px;
+    color: white;
+    text-decoration: underline;
 }
